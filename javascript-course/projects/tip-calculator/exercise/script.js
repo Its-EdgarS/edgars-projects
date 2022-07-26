@@ -48,7 +48,7 @@ const calculateBill = () => {
   const perPersonTotal = total / numPeople 
 
   // update the perPersonTotal on DOM & show it to user
-  per_Person_Total.innerText = `$${Math.round(perPersonTotal * 100) / 100}`
+  per_Person_Total.innerText = `$${perPersonTotal.toFixed(2).toLocaleString('en-US')}`
 
 
 }
