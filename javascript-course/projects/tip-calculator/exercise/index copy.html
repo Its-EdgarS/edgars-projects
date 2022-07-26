@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style copy.css" type="text/css" />
+    <title>Tip Calculator</title>
+  </head>
+  <body>
+    <div class="calculator">
+      <div class="totalText">Bill total</div>
+      <div class="btiContainer">
+        <div class="moneySign">$</div>
+        <input type="text" id="billTotalInput" placeholder="0.00" onkeyup="calculateBill()">
+      </div>
+      <div class="tipText">Tip</div>
+      <div class="tipIContainer">
+        <div class="percentSign">%</div>
+        <input type="text" id="tipInput" placeholder="10" onkeyup="calculateBill()">
+      </div>
+      <div class="numPeopleText">
+        <div class="people">People</div>
+        <div class="totalPerPersonText">Total per Person</div>
+      </div>
+      <div class="counterRow">
+        <div class="counter">
+          <button id="subtractPeople" onclick="decreasePeople()">-</button>
+          <p id="numberOfPeople">1</p>
+          <button id="addPeople" onclick="increasePeople()">+</button>
+        </div>
+        <p id="perPersonTotal">$0.00</p>
+      </div>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>

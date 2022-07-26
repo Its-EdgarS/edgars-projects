@@ -1,0 +1,121 @@
+* {
+  font-family: Avenir Next, Helvetica, sans-serif;
+  color: white;
+}
+
+body {
+  background: #8990ec;
+}
+
+.calculator {
+  position: absolute;
+  top: 43%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 350px;
+  height: 460px;
+  background: #272639;
+  border-radius: 20px;
+  padding: 50px 15px;
+}
+
+.totalText {
+  margin-top: 30px;
+}
+
+#billTotalInput {
+  margin-top: 10px;
+  font-size: 18px;
+  width: 320px;
+  border-radius: 10px;
+  border: none;
+  padding: 5px;
+  padding-left: 23px;
+  background-color: #353959;
+  outline: none;
+}
+
+.btiContainer {
+  position: relative;
+}
+
+.moneySign {
+  position: absolute;
+  top: 16px;
+  left: 12px;
+}
+
+.tipText {
+  margin-top: 22px;
+}
+
+#tipInput {
+  margin-top: 10px;
+  font-size: 18px;
+  width: 320px;
+  border-radius: 10px;
+  border: none;
+  padding: 5px;
+  padding-left: 23px;
+  background-color: #353959;
+  outline: none;
+}
+
+.tipIContainer {
+  position: relative;
+}
+
+.percentSign {
+  font-size: 15px;
+  position: absolute;
+  top: 16px;
+  left: 10px;
+}
+
+.numPeopleText {
+  display: flex;
+  margin-top: 20px;
+}
+
+.people {
+  flex: 1;
+}
+
+.counterRow {
+  display: flex;
+  margin-top: -10px;
+}
+
+.counter {
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+
+#subtractPeople, #addPeople {
+  background: #8990ec;
+  height: 28px;
+  width: 28px;
+  border-radius: 50%;
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+#subtractPeople {
+margin-right: 10px;
+}
+
+#addPeople {
+  margin-left: 10px;
+}
+
+#numberOfPeople {
+  font-size: 25px;
+}
+
+#perPersonTotal {
+  font-size: 35px;
+  
+}
