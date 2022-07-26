@@ -71,6 +71,7 @@ const decreasePeople = () => {
   // if amount is 1 or less simply return
   // (a.k.a you can't decrease the number of people to 0 or negative!)
   if (numPeople == 1) {
+    alert('No no no missy. Someone has to pay up!!')
     return
   }
   
