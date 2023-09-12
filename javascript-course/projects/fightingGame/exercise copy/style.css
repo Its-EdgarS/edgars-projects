@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: "VT323", monospace;
+    font-size: 2em;
+    color: white;
+}
+
+.stage {
+    width: 600px;
+    height: 400px;
+    display: flex;
+}
+
+.pArea {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+}
+.pName {
+    font-size: 1em;
+}
+
+.pGif {
+    height: 140px;
+    width:auto;
+}
+
+#p2Gif {
+    display: inline-block;
+    transform: scaleX(-1);
+}
+
+.buttons {
+    border-radius: 2em;
+    height: 2.5em;
+    width: 5em;
+    background-color: aqua;
+    border: none;
+    cursor: pointer;
+}
+
+#atkbtn1 {
+    background-color: yellow;
+    margin-bottom: 7px;
+}
+
+.pHealth {
+    font-size: 2em;
+    height: 50px;
+}
+
+.menuDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sfLogo {
+    height: 140px;
+    width: auto;
+}
+
+#winner {
+    font-size: 1.7em;
+    color:lawngreen;
+}
+
+#resetbtn {
+    background-color: orange;
+    padding: 15px 25px;
+    border-radius: 25px;
+}
